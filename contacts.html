@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgba(151, 58, 131, 0.705);">
+    
+    <link rel="stylesheet" href="order.css">
+
+    <div id="page">
+    <img src="links.gif" usemap="#mylinks" >
+
+    <map name="mylinks">
+      <area target="Home" alt="Home" title="Home" href="home.html" coords="3,2,93,40" shape="rect">
+      <area target="Services" alt="Services" title="Services" href="Borders.html" coords="103,1,193,39" shape="rect">
+      <area target="Products" alt="Products" title="Products" href="Products.html" coords="208,2,298,40" shape="rect">
+      <area target="Order Status" alt="Order Status" title="Order Status" href="Order.html" coords="312,2,440,38" shape="rect">
+      <area target="Contact Us" alt="Contact Us" title="Contact Us" href="Contact.html" coords="448,3,559,40" shape="rect">
+    </map>
+  </head>
+
+
+  <br>
+  <br>
+      <table border="3px"
+              style="border-collapse: collapse;">
+              
+
+              <h1>FREE Delivery!</h1>
+        <h2>Product Sumary</h2>
+      <tr>
+          <th>Description</th>
+          <th>Size</th>
+          <th>Colour</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        <th>Total</th>
+      </tr>       
+      <tr>
+          <td><button><a href="female.html">Female Ski Jackets</a></button></td>
+          <td><select>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+  </select>
+  </td>
+          <td><select>
+    <option value="red">Red</option>
+    <option value="white">White</option>
+    <option value="black">Black</option>
+  </select></td>
+          <td>
+            <p>150.95</p>
+          </td>
+        <td>
+          <input type="number" id="Fnum" value="1" step="1">
+        </td>
+        <td i>
+          <input type="text" id="Female">
+        </td>
+      </tr>
+              
+      <tr>
+          <td><button><a href="male.html">Male Ski Jackets</a></button></td>
+          <td><select>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+  </select></td>
+          <td><select>
+    <option value="red">Red</option>
+    <option value="white">White</option>
+    <option value="black">Black</option>
+  </select></td>
+          <td id="mprice">
+            <p value="180.95">180.95</p>
+          </td>
+          <td>
+            <input type="number" id="Mnum" value="1" step="1">
+          </td>
+        <td>
+          <input type="text" id="Male">
+        </td>
+      </tr>     
+              
+      <tr>
+          <td colspan="4">Click to confirm and process you order:</td>
+        <td>
+          <button type="button" onclick="order()">Total Price </button>
+        </td>
+        <td>
+          <input type="text" id="Total">
+        </td>
+        </tr>
+  
+      </table>
+
+    <br>
+    <br>
+  </div>
+  <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <footer class="copyright">'© 2020 Swegga Fashion – LITHA KANE</footer>
+  <script src="order.js"></script>
+</head>
+</body>
+</html>

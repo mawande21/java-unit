@@ -1,0 +1,48 @@
+body {
+    margin: 40px;
+    font: 80% Arial, Helvetica, sans-serif;
+  }
+  .wrapper {
+    display: grid;
+    background: black;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat( 4, 150px);
+    background-color: #fff;
+    color: #444;
+  }
+  .box {
+    border: 1px solid #444;
+    padding: 20px;
+    font-size: 150%;
+  }
+  .a {
+    grid-column: 1 / 9;
+    grid-row: 1 / 2;
+    align-self: stretch;
+    background: Red;
+  }
+  .b {
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+    align-self: stretch;
+    background: Blue;
+  }
+  .c {
+    grid-column: 2 / 8;
+    grid-row: 2 / 5;
+    align-self: stretch;
+    background: Pink;
+  }
+  .d {
+    grid-column: 1 / 9;
+    grid-row: 5 / 5;
+    align-self: stretch;
+    background: Black;
+  }
+  .e {
+    grid-column: 8 / 8;
+    grid-row: 2 / 5;
+    align-self: stretch;
+    background: Yellow;
+  }
